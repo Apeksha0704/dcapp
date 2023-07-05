@@ -1,0 +1,47 @@
+*
+{
+  font-size:50px;
+}
+
+.nav{background-color: BLACK;}
+.nav a{color:white;text-decoration: None;margin: 5%;}
+body {
+  background-color:white;
+}
+.clock-time {
+  text-align: center;
+  color: black;
+  font-size: 80px;
+}
+
+.stopwatch-time {
+  text-align: center;
+  color: black;
+  font-size: 80px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-buttons button {
+  margin: 20px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.stopwatch-buttons button:first-child {
+  background-color: green;
+}
+
+.stopwatch-buttons button:last-child {
+  background-color: red;
+}
+.App {
+  text-align: center;
+  font-size: 300px;
+}
+
